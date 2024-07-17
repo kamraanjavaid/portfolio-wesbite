@@ -47,7 +47,7 @@
     width: 0.0000001px;
   }
 
-  @media(max-width:768px)and(min-width:500px){
+  @media(max-width:768px){
     .navbar{
       margin: 20px 50px;
     }
