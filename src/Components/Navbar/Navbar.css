@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .navbar {
   display: flex;
   align-items: center;
@@ -16,18 +17,46 @@
   gap: 40px;
 }
 .nav-menu li {
+=======
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 130px;
+}
+
+.logoImg{
+  width: 100px;
+}
+.nav-menu{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-size: 20px;
+    gap: 40px;
+}
+.nav-menu li{
+>>>>>>> color-update
   cursor: pointer;
   display: flex;
   flex-direction: column;
 }
+<<<<<<< HEAD
 .nav-menu img {
   display: flex;
 }
 .anchor-link {
+=======
+.nav-menu img{
+  display: flex;
+}
+.anchor-link{
+>>>>>>> color-update
   color: white;
   text-decoration: none;
 }
 .nav-connect {
+<<<<<<< HEAD
   padding: 15px 25px;
   border-radius: 50px;
   background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
@@ -145,3 +174,74 @@
     width: 30px;
   }
 }
+=======
+    padding: 15px 25px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #4CAF50 0%, #2196F3 100%);
+    font-size: 21px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .nav-connect:hover{
+    transform: scale(1.1);
+  }
+
+
+  .nav-mob-open{
+    display: none;
+  }
+  .nav-mob-close{
+    width: 0.0000001px;
+  }
+
+  @media(max-width:768px){
+    .navbar{
+      margin: 20px 50px;
+    }
+    .nav-connect{
+      display: none;
+    }
+    .nav-mob-open{
+      position: absolute;
+      right: 30px;
+      display: block;
+      cursor: pointer;
+    }
+    .nav-mob-close{
+      display: block;
+      position: relative;
+      top: 30px;
+      left: 290px;
+      width: 30px;
+      cursor: pointer;
+    }
+    .nav-menu{
+      position: fixed;
+      flex-direction: column;
+      align-items: start;
+      top: 0;
+      gap: 30px;
+      background-color: #1f0016;
+      width: 350px;
+      height: 100%;
+      z-index: 2;
+      transition: right 0.5;
+      right: -350px;
+    }
+    .nav-menu li{
+      font-size: 30px;
+      padding-left: 100px;
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      &:hover{
+        background-color: #b923e1;
+        width: 100%;
+      }
+    }
+    .underline_img{
+      width: 30px;
+    }
+
+  }
+>>>>>>> color-update

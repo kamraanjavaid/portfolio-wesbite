@@ -64,6 +64,7 @@
     margin-bottom: 50px;
 }
 
+<<<<<<< HEAD
 @media (max-width:499px){
     .footer{
         margin: 20px 70px;
@@ -106,6 +107,8 @@
     }
 }
 
+=======
+>>>>>>> color-update
 @media (max-width:768px){
     .footer{
         margin: 50px 70px;
