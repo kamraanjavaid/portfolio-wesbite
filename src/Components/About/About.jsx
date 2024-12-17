@@ -8,10 +8,6 @@ const About = () => {
     <div id="about" className="about">
       <div className="about-title">
         <h1>About me</h1>
-<<<<<<< HEAD
-=======
-        <img src={theme_pattern} alt="" />
->>>>>>> color-update
       </div>
 
       <div className="about-sections">
@@ -22,7 +18,6 @@ const About = () => {
         <div className="about-right">
           <div className="about-para">
             <p>
-<<<<<<< HEAD
               I'm a passionate and detail-oriented developer with a strong
               desire to constantly learn and grow in the field of web
               development. While pursuing my BS in Software Engineering at NUML,
@@ -36,16 +31,6 @@ const About = () => {
               building dynamic, interactive user interfaces. In addition to
               coding, I love solving complex problems and learning new tools
               that make development faster and more efficient.
-=======
-              I’m Kamran Javaid, a driven software engineering student who loves
-              turning ideas into reality with code. My journey has led me to
-              master HTML, CSS, JavaScript, and ReactJS. 
-              </p>
-              <p>Currently, I’m delving
-              into the MERN stack to broaden my development capabilities. I’m
-              passionate about learning, creating, and collaborating on
-              innovative projects. Welcome to my world of coding!
->>>>>>> color-update
             </p>
           </div>
           <div className="about-skills">
